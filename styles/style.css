@@ -1,4 +1,8 @@
-@import "tailwindcss"
-"files.associations": {
-  "*.css": "tailwindcss"
+@import "tailwindcss";
+
+
+@theme {
+  --font-display: "Noto Serif", "Inter";
+  --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
+  --font-display--font-variation-settings: "opsz" 32; 
 }
