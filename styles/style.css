@@ -90,10 +90,94 @@
   width: 100%;
 }
 
+/* flower lover area */
+.lover-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ align-items: center;
+ margin-top: 200px;
+ margin-bottom: 100px;
+}
 
+.lover-img{
+  position: relative;
+}
+.badge{
+  
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -150px;
+  right: 10px;
 
+}
+.latest-deals-flower{
+  position: relative;
+}
+.contact-us-form{
+  background-image: url('/images/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+/* footer area */
 
+.footer {
+      background-color: #f8fafc;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 100px;
+    }
 
+    .footer .brand {
+      max-width: 300px;
+    }
+
+    .footer .brand img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+
+    .footer .brand p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer .columns {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .footer .column {
+      min-width: 120px;
+    }
+
+    .footer .column a {
+      display: block;
+      color: #333;
+      font-size: 14px;
+      text-decoration: none;
+      margin-bottom: 8px;
+    }
+
+    .footer .socials {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .footer .socials img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+    }
+
+    
 
 
 
@@ -127,7 +211,7 @@
     font-size: 1.5rem;
   }
   .hero-text p, .section-description {
-    font-size: 1.14rem;
+    font-size: 1rem;
     
   }
 
@@ -150,6 +234,35 @@
   padding-bottom: 20px;
   
 }
+/* flower lover mobile styles */
 
+
+.lover-section{
+  grid-template-columns: repeat(1, 1fr);
+
+  margin: 50px  15px;
+}
+.second-title{
   
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+
+/* footer  */
+ .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer .columns {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer .socials {
+        justify-content: center;
+      }
+
  }
