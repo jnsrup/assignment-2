@@ -6,3 +6,150 @@
   --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
   --font-display--font-variation-settings: "opsz" 32; 
 }
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* noto serif */
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* main area styles */
+/* main{
+  max-width: 1200px;
+  margin-inline: auto;
+} */
+
+/* hero section styles */
+.hero-section{
+
+ display: flex;
+  width: 100%;
+  gap: 20px;
+
+}
+.section-text{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+
+.flower-card{
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    gap: 20px;
+    justify-content: center;
+    margin: 50px ;
+ 
+}
+
+.card {
+    
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  
+
+}
+.card h4{
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 25px;
+  color: rgba(17, 17, 17, 1.00);
+}
+.card h5{
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: rgba(17, 17, 17, 1.00);
+}
+.card img{
+
+  width: 100%;
+}
+/* button styles */
+.primary-btn{
+  
+  font-size: medium;
+  font-family: "Inter", sans-serif;
+  background-color: #e95a08;
+  color:white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* mobile responsive */
+ @media screen and (max-width: 576px) {
+
+  .shope-card{
+    display:flex ;
+    gap: 20px;
+    font-size: 1rem;
+    align-items: center;
+    
+    
+
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    margin: 50px 10px;
+    padding: 10px;
+  }
+  .hero-text h1{
+    font-size: 1.5rem;
+  }
+  .hero-text p, .section-description {
+    font-size: 1.14rem;
+    
+  }
+
+  .section-title{
+
+   font-size: 1.5rem;
+  }
+  
+.flower-card{
+  grid-template-columns: repeat(2, 2fr);
+   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 15px;
+
+
+}
+
+.card{
+  padding-bottom: 20px;
+  
+}
+
+  
+ }

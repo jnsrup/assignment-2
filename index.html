@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/ac45ebadf5.js" crossorigin="anonymous"></script>
+     <!--inter font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- noto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
-<body class="">
+<body class=" noto-serif-font ">
      
      <!-- header Area -->
     <header> 
-        <nav class="grid grid-cols-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5">
+        <nav class="grid grid-cols-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-7 items-center">
 
             <div class="logo content-center "> <img src="images/logo.png" alt=""></div>
-            <div class="menu content-center flex flex-wrap ">
+            <div class="menu     ">
 
-                <ul class="flex space-x-20">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#"> <i class="fa-solid fa-cart-shopping"> Cart ($56)</i></a></li>
+                <ul class="flex gap-20 justify-end " >
+                <li><a href="# " class="text-xl hidden sm:block " >Home</a></li>
+                <li><a href="#" class="text-gray-700 text-xl hidden sm:block" >Shop</a></li>
+                <li><a href="#" class="text-gray-700 text-xl hidden sm:block "  >About us</a></li>
+                <li><a href="#" class="text-gray-700 text-xl shope-card"  > <i class="fas fa-shopping-cart text-xl"></i> Cart ($56)</a></li>
             </ul>
                 
             </div>
@@ -40,7 +46,124 @@
     </header>
     <!-- main area -->
    
-    <main>
+    <main class="max-w-7xl mx-auto   ">
+        <!-- hero section -->
+         <div class=" hero-section items-center h-150">
+
+            <div class="hero-text">
+
+                <h1 class="nato-serif text-6xl      font-bold   ">
+                    ALWAYS <span class="text-orange-600">
+                        FRESH <br> FLOWERS
+
+                    </span>
+
+                </h1>
+                <p class="mt-4 text-gray-600 text-xl">
+                    Indulge your senses with the beauty and fragrance of our
+                     fresh flower shop. From classic roses to exotic blooms,
+                      we offer a wide variety of fresh flowers that are perfect 
+                      for any occasion. 
+
+                </p>
+
+
+            </div>
+            <div class="hero-img "></div>
+            <img src="images/hero-flower.png" alt="">
+
+
+         </div>
+
+         <div class="card-section">
+            <div class="section-text  ">
+                <h2 class="section-title  nato-serif text-5xl     font-bold   ">
+                    <span class="text-orange-600 "> Our  </span> Plants
+                </h2>
+                <p class="section-description mt-4 text-gray-600 text-xl max-w-4xl ">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                     From classic roses to exotic blooms, we offer a wide variety of fresh.
+                </p>
+
+
+            </div>
+
+            <div class="flower-card grid">
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4 c>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+                <div class="card">
+                    <img src="images/sample-flower-image.png" alt="">  
+                    <h4>Lily Blossom</h4>
+                    <h5> 20 USD</h5>
+                    <button class="primary-btn">ADD TO CART</button>
+
+
+                </div>
+               
+
+
+            </div>
+
+
+
+         </div>
+         
+
+
 
     </main>
 
